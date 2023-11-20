@@ -3,6 +3,7 @@ import { Suspense } from 'react';
 import Loader from '../components/Loader';
 // import Island from '../models/island';
 import Island from '../models/island.jsx';
+import Sky from '../models/Sky.jsx';
 
 const Home = () => {
   // const adjustIslandForScreensize = () => {
@@ -53,7 +54,7 @@ const Home = () => {
             groundColor="#000000"
             intensity={1}
           />
-
+          <Sky />
           <Island
             position={islandPosition}
             sclae={islandScale}
