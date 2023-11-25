@@ -1,14 +1,3 @@
-/**
- * IMPORTANT: Loading glTF models into a Three.js scene is a lot of work.
- * Before we can configure or animate our model’s meshes, we need to iterate through
- * each part of our model’s meshes and save them separately.
- *
- * But luckily there is an app that turns gltf or glb files into jsx components
- * For this model, visit https://gltf.pmnd.rs/
- * And get the code. And then add the rest of the things.
- * YOU DON'T HAVE TO WRITE EVERYTHING FROM SCRATCH
- */
-
 import { a } from '@react-spring/three';
 import { useEffect, useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
@@ -21,6 +10,7 @@ export default function Island({
   setIsRotating,
   setCurrentStage,
   currentFocusPoint,
+  // setCurrentStage,
   ...props
 }) {
   const islandRef = useRef();
@@ -77,7 +67,6 @@ export default function Island({
       rotationSpeed.current = delta * 0.01 * Math.PI;
     }
   };
-
   // Handle keydown events
   const handleKeyDown = (event) => {
     if (event.key === 'ArrowLeft') {
@@ -101,8 +90,10 @@ export default function Island({
   };
 
   useEffect(() => {
+    // We wraping everything in canvas
     // Add event listeners for pointer and keyboard events
     const canvas = gl.domElement;
+    // Why we add
     canvas.addEventListener('pointerdown', handlePointerDown);
     canvas.addEventListener('pointerup', handlePointerUp);
     canvas.addEventListener('pointermove', handlePointerMove);
