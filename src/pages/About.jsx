@@ -51,7 +51,7 @@ const About = () => {
         <h3 className="subhead-text">Work Experience.</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            🤝Throughout my professional journey, I've had the privilege of //
+            🤝Throughout my professional journey, I've had the privilege of
             working with one incredible company. 🏢💼 It has been an incredible
             experience, collaborating with a talented team and honing my skills
             in various areas. 🌟 The journey has been full of growth and
