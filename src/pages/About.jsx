@@ -53,10 +53,10 @@ const About = () => {
           <p>
             🤝Throughout my professional journey, I've had the privilege of //
             working with one incredible company. 🏢💼 It has been an incredible
-            // experience, collaborating with a talented team and honing my
-            skills // in various areas. 🌟 The journey has been full of growth
-            and // learning, and I'm grateful for the opportunity to have been
-            part of // such an amazing organization.
+            experience, collaborating with a talented team and honing my skills
+            in various areas. 🌟 The journey has been full of growth and
+            learning, and I'm grateful for the opportunity to have been part of
+            such an amazing organization.
           </p>
         </div>
 
