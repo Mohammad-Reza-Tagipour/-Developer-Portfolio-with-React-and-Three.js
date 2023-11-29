@@ -62,11 +62,7 @@ export const skills = [
     name: 'MongoDB',
     type: 'Database',
   },
-  {
-    imageUrl: motion,
-    name: 'Motion',
-    type: 'Animation',
-  },
+
   {
     imageUrl: mui,
     name: 'Material-UI',
@@ -92,11 +88,7 @@ export const skills = [
     name: 'Redux',
     type: 'State Management',
   },
-  {
-    imageUrl: sass,
-    name: 'Sass',
-    type: 'Frontend',
-  },
+
   {
     imageUrl: tailwindcss,
     name: 'Tailwind CSS',
